@@ -1,0 +1,9 @@
+# Model files (if large, avoid pushing directly)
+*.h5
+*.keras
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+#=== dataset ===
+TESS Toronto emotional speech set data/
