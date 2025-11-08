@@ -29,12 +29,12 @@ pip install -r requirements.txt
 
 ### Model Workflow
 
-Data Preprocessing – : Audio files are read from datasets like TESS and dataframe is made by labelling each audio file by python string processing
-Feature Extraction – Computed MFCCs features - 40 MFCCs are extracted per frame.
-Model Training – Train Bi-LSTM classifier on extracted features
-Evaluation – Measure accuracy and confusion matrix
+- Data Preprocessing – : Audio files are read from datasets like TESS and dataframe is made by labelling each audio file by python string processing
+- Feature Extraction – Computed MFCCs features - 40 MFCCs are extracted per frame.
+- Model Training – Train Bi-LSTM classifier on extracted features.
+- Evaluation – Measure accuracy and confusion matrix
 
-
+```
        precision    recall  f1-score   support
 
        angry       0.98      0.97      0.97        60
@@ -48,5 +48,5 @@ Evaluation – Measure accuracy and confusion matrix
     accuracy                           0.97       420
    macro avg       0.97      0.97      0.97       420
 weighted avg       0.97      0.97      0.97       420
-
-Prediction – Classify unseen speech samples into emotion categories
+```
+- Prediction – Classify unseen speech samples into emotion categories
